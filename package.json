@@ -1,0 +1,23 @@
+{
+  "name": "miso-vscode",
+  "displayName": "miso-vscode",
+  "description": "Syntax highlighting for miso",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "misoapi.injection",
+        "path": "./syntaxes/misoapi-injection.json",
+        "injectTo": [
+          "source.go"
+        ]
+      }
+    ]
+  }
+}

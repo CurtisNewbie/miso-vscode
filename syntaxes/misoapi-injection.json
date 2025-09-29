@@ -1,0 +1,19 @@
+{
+  "scopeName": "misoapi.injection",
+  "injectionSelector": "L:comment.line.double-slash.go",
+  "patterns": [
+    {
+      "include": "#keywords"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keywords.misoapi",
+          "match": "\\b(misoapi-[^ ]+|misoconfig-[^ ]+)\\b"
+        }
+      ]
+    }
+  }
+}
