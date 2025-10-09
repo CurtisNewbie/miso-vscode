@@ -1,5 +1,6 @@
 {
   "name": "miso-vscode",
+  "publisher": "yongj-zhuang",
   "displayName": "miso-vscode",
   "description": "Syntax highlighting for miso",
   "version": "0.0.1",
