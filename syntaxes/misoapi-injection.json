@@ -10,8 +10,15 @@
     "keywords": {
       "patterns": [
         {
+          "match": "\\b(misoapi-resource) *: *ref\\((\\w*)\\)",
+          "captures": {
+            "1": { "name": "keywords.misoapi" },
+            "2": { "name": "keywords.misoapi" }
+          }
+        },
+        {
           "name": "keywords.misoapi",
-          "match": "\\b(misoapi-[^ ]+|misoconfig-[^ ]+)\\b"
+          "match": "\\b(misoapi-(?:http|desc|query-doc|header-doc|scope|resource|ngtable|raw|json-resp-type|ignore)|misoconfig-(?:section|prop|alias|doc-only|default-start|default-end))"
         }
       ]
     }
