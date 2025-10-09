@@ -5,6 +5,8 @@ npm install -g @vscode/vsce
 vsce package
 ```
 
+In vscode settings.json:
+
 ```json
 "editor.tokenColorCustomizations": {
     "textMateRules": [
