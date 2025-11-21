@@ -18,7 +18,7 @@
         },
         {
           "name": "keywords.misoapi",
-          "match": "\\b(misoapi-(?:http|desc|query-doc|header-doc|scope|resource|ngtable|raw|json-resp-type|ignore)|misoconfig-(?:section|prop|alias|doc-only|default-start|default-end))"
+          "match": "\\b(misoapi-(?:http|desc|query|query-doc|header|header-doc|scope|resource|ngtable|raw|json-resp-type|ignore)|misoconfig-(?:section|prop|alias|doc-only|default-start|default-end))"
         }
       ]
     }
